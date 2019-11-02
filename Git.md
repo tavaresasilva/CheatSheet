@@ -5,6 +5,7 @@
 ###  CREATE REPOSITORIES
 ```
 git init [project name]
+Create a new local repository
 ```
 ``
 git clone [url]
