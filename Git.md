@@ -3,9 +3,9 @@
 ## Porcelain commands
 
 ###  CREATE REPOSITORIES
-``
+```
 git init [project name]
-``
+```
 ``
 git clone [url]
 ``
