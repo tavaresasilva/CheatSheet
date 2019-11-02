@@ -6,9 +6,9 @@
 ``
 git init [project name]
 ``
-`
+``
 git clone [url]
-`
+``
 
 git add [file]
 git status
