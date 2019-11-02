@@ -1,18 +1,14 @@
 # GIT CHEAT SHEET
 
-## Plumbing commands
-
-git cat-file -p [hash]
-git hash-object
-
-echo 'Git Cheat Sheet' | git hash-object --stdin
-
-git count-bjects
-
 ## Porcelain commands
 
+###  CREATE REPOSITORIES
+``
 git init [project name]
+``
+
 git clone [url]
+
 
 git add [file]
 git status
@@ -26,3 +22,14 @@ git checkout
 
 git merge
 git rebase
+
+## Plumbing commands
+
+git cat-file -p [hash]
+git hash-object
+
+echo 'Git Cheat Sheet' | git hash-object --stdin
+
+git count-bjects
+
+
