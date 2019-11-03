@@ -34,6 +34,8 @@ git hash-object
 
 echo 'Git Cheat Sheet' | git hash-object --stdin
 
-git count-bjects
+git count-ojects
+
+git show-ref [branch]
 
 
