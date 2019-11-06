@@ -55,9 +55,9 @@
     <dt>git cat-file -p [hash object]</dt>
     <dd>Show friendly informations about a git object</dd>
     <dt>echo 'Git Cheat Sheet' | git hash-object --stdin</dt>
-    <dd>Calculate the SHA1 to a input 'Git Cheat Sheet'</dd>
+    <dd>Calculate the SHA1 of 'Git Cheat Sheet'</dd>
     <dt>git count-ojects</dt>
-    <dd>Show the number of git objects</dd>
+    <dd>Shows number of git objects</dd>
     <dt>git show-ref [branch]</dt>
-    <dd>Show the commit references of a branch</dd>
+    <dd>Shows commit references for a branch</dd>
 </dl>
