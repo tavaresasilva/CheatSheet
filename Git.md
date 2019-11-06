@@ -15,9 +15,9 @@
 
 <dl>
     <dt>git add [file/folder]</dt>
-    <dd>Prepare the file or folder to commit</dd>
+    <dd>Prepares the file or folder to commit</dd>
     <dt>git status</dt>
-    <dd>Show all modification to be committed</dd>
+    <dd>Shows all modification to be committed</dd>
     <dt>git commit -m "[message]"</dt>
     <dd>Save changes at a point in time with a description</dd>
     <dt>git reset [file/folder]</dt>
@@ -43,9 +43,9 @@
     <dt>git push</dt>
     <dd>Uploads all local branch chanches to origin</dd>
     <git>git fetch</dit>
-    <dd>Download all origin branch changes locally</dd>
+    <dd>Downloads all origin branch changes locally</dd>
     <dt>git pull</dt>
-    <dd>Perfom a git fetch and git merge</dd>
+    <dd>Performs a git fetch and git merge</dd>
 </dl>
 
 
@@ -53,7 +53,7 @@
 
 <dl>
     <dt>git cat-file -p [hash object]</dt>
-    <dd>Show friendly informations about a git object</dd>
+    <dd>Shows friendly informations about a git object</dd>
     <dt>echo 'Git Cheat Sheet' | git hash-object --stdin</dt>
     <dd>Calculate the SHA1 of 'Git Cheat Sheet'</dd>
     <dt>git count-ojects</dt>
