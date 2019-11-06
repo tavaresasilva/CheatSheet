@@ -19,100 +19,45 @@
     <dt>git status</dt>
     <dd>Show all modification to be committed</dd>
     <dt>git commit -m "[message]"</dt>
-    <dd></dd>
+    <dd>Save changes at a point in time with a description</dd>
+    <dt>git reset [file/folder]</dt>
+    <dd>Remove the file or folder from staging area</dd>
 </dl>
 
-
-
-
-```
-git add [file]
-```
-
-```
-git status
-```
-
-```
-git commit
-```
-
-```
-git push
-```
-
-```
-git pull
-```
-
-```
-git branch
-```
-
-```
-git checkout
-```
-
-```
-git merge
-```
-
-```
-git rebase
-```
-## Plumbing commands
-
-```
-git cat-file -p [hash]
-```
-
-```
-git hash-object
-```
-
-```
-echo 'Git Cheat Sheet' | git hash-object --stdin
-```
-
-```
-git count-ojects
-```
-
-```
-git show-ref [branch]
-```
-```
- git commit
- ``` 
-| Adiciona uma marcador par ser rastreado
-
+### WORKING WITH BRANCHES
 
 <dl>
-    <dt>Bread</dt>
-    <dd>A baked food made of flour.</dd>
-    <dt>Coffee</dt>
-    <dd>A drink made from roasted coffee beans.</dd>
+    <dt>git branch [new branch name]<dt>
+    <dd>Creates a new branch</dd>
+    <dt>git chechout [branch name]</dt>
+    <dd>Changes the current wokining directory branch</dd>
+    <dt>git merge [branch]<dt>
+    <dd>Performs the merge between the current branch and the branch passed as argument</dd>
+    <dt>git rebase [branch]</dt>
+    <dd>Performs the merge, but recreate the history in a only branch and destroys the other</dd>
 </dl>
 
-<style> 
-dl > *{
-    margin: 0;
-    padding: 8px 12px;
-    display: block;
-}
+### TEAM WORK
 
-dt{
-    background-color: #E8E8E8;
-    font-weight: 600;
-}
+<dl>
+    <dt>git push</dt>
+    <dd>Uploads all local branch chanches to origin</dd>
+    <git>git fetch</dit>
+    <dd>Download all origin branch changes locally</dd>
+    <dt>git pull</dt>
+    <dd>Perfom a git fetch and git merge</dd>
+</dl>
 
-dt::before{
-    content: "\0024 ";    
-    padding-right: 8px;
-}
 
-dd{
-    background-color: #F8F8F8;
-    border-bottom: 1px solid #BEBEBE;
-}
-</style>
+## Plumbing commands
+
+<dl>
+    <dt>git cat-file -p [hash object]</dt>
+    <dd>Show friendly informations about a git object</dd>
+    <dt>echo 'Git Cheat Sheet' | git hash-object --stdin</dt>
+    <dd>Calculate the SHA1 to a input 'Git Cheat Sheet'</dd>
+    <dt>git count-ojects</dt>
+    <dd>Show the number of git objects</dd>
+    <dt>git show-ref [branch]</dt>
+    <dd>Show the commit references of a branch</dd>
+</dl>
